@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.hrefting {
+    display: flex;
+    column-gap: 30px;
+}
+
+.b-hrefting {
+    color: black;
+}
+
+.a-hrefting {
+    color: black;
+}
+
+/* header qismi */
+
+header {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.h2- {
+    font-family: Poppins;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 87px;
+    letter-spacing: 0em;
+}
+
+.paragrof {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    margin-top: 20px;
+}
+
+.mening {
+    border-radius: 20px;
+    width: 550px;
+    margin-left: 40px;
+}
+
+.btn-head {
+    border: none;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    padding: 19px 48px;
+    background-color: #60C7BF;
+    color: white;
+    margin-top: 150px;
+}
+
+/* main qismi */
+
+.img1 {
+    border-radius: 25px;
+}
+
+.img2 {
+    border-radius: 25px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.father {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paragrof2 {
+    font-family: Poppins;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 87px;
+    letter-spacing: 0em;
+}
+
+.paragrof3 {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    margin-top: 20px;
+}
+
+.paragrofs {
+    margin-left: 30px;
+}
+
+.h2-tag {
+    font-family: Poppins;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 102px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* card */
+
+.gta {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    display: block;
+}
+
+.gat2 {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(181, 181, 181, 1);
+}
+
+.paragrofs2{
+    margin-left: 10px;
+}
+
+.img4{
+    padding: 20px;
+    border-radius: 5%;
+}
