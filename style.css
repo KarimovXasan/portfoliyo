@@ -1,254 +1,265 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
 .container {
-    max-width: 1140px;
-    margin: 0 auto;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
-.logotip{
-    background-color: none;
+.logotip {
+  background-color: none;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
 .hrefting {
-    display: flex;
-    column-gap: 30px;
+  display: flex;
+  column-gap: 30px;
 }
 
 .b-hrefting {
-    color: black;
+  color: black;
 }
 
 .a-hrefting {
-    color: black;
+  color: black;
 }
 
 /* header qismi */
 
 header {
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .h2- {
-    font-family: Poppins;
-    font-size: 58px;
-    font-weight: 700;
-    line-height: 87px;
-    letter-spacing: 0em;
+  font-family: Poppins;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 87px;
+  letter-spacing: 0em;
 }
 
 .paragrof {
-    font-family: Poppins;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 33px;
-    letter-spacing: 0em;
-    margin-top: 20px;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  margin-top: 20px;
 }
 
 .mening {
-    max-width: 800px;
-    border-radius: 20px;
-    margin-left: 40px;
+  max-width: 800px;
+  border-radius: 20px;
+  margin-left: 40px;
 }
 
 .btn-head {
-    border: none;
-    border-radius: 10px;
-    font-family: Poppins;
-    font-size: 26px;
-    font-weight: 500;
-    line-height: 39px;
-    letter-spacing: 0em;
-    padding: 19px 48px;
-    background-color: #60C7BF;
-    color: white;
-    margin-top: 150px;
+  border: none;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0em;
+  padding: 19px 48px;
+  background-color: #60C7BF;
+  color: white;
+  margin-top: 150px;
 }
 
 /* main qismi */
 
-.cards1{
-    display: block;
+.cards1 {
+  display: block;
 }
 
 .img1 {
-    border-radius: 25px;
-    width: 300px;
+  border-radius: 25px;
+  width: 300px;
 }
 
 .img2 {
-    border-radius: 25px;
-    margin-left: 30px;
-    margin-top: 10px;
-    width: 300px;
+  border-radius: 25px;
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 300px;
 }
 
 .father {
-    margin-top: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .paragrof2 {
-    font-family: Poppins;
-    font-size: 58px;
-    font-weight: 700;
-    line-height: 87px;
-    letter-spacing: 0em;
+  font-family: Poppins;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 87px;
+  letter-spacing: 0em;
 }
 
 .paragrof3 {
-    font-family: Poppins;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 33px;
-    letter-spacing: 0em;
-    margin-top: 20px;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  margin-top: 20px;
 }
 
 .paragrofs {
-    margin-left: 30px;
-    display: block;
+  margin-left: 30px;
+  display: block;
 }
 
 .h2-tag {
-    font-family: Poppins;
-    font-size: 68px;
-    font-weight: 700;
-    line-height: 102px;
-    letter-spacing: 0em;
-    text-align: center;
-    margin-top: 40px;
+  font-family: Poppins;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 102px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 40px;
 }
 
 /* card */
 
 .gta {
-    font-family: Poppins;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 72px;
-    letter-spacing: 0em;
-    display: block;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  display: block;
 }
 
 .gat2 {
-    font-family: Poppins;
-    font-size: 28px;
-    font-weight: 400;
-    line-height: 42px;
-    letter-spacing: 0em;
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
 }
 
 .cards {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 10px;
-    background-color: rgba(181, 181, 181, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgba(181, 181, 181, 1);
 }
 
 .paragrofs2 {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .img4 {
-    padding: 20px;
-    border-radius: 5%;
+  padding: 10px;
+  border-radius: 10%;
 }
 
 @media only screen and (max-width: 600px) {
-      .navigation{
-        margin-top: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
-        justify-content: space-between;         
-      }
-
-      .hrefting{
-        margin-left: 20px;
-        padding-left: 20px;
-        margin-right: 20px;
-        padding-right: 20px;
-      }
-      .header{
-        margin-left: 20px;
-        margin-right: 20px;
-      }
- 
-      .tegs{
-        padding-right: 20px;
-      }
-
-      .logotip{
-        margin-bottom: 20px;
-      }
-
-      .img1{
-        margin-left: 20px;
-      }
-
-      .img2{
-        margin-left: 80px;
-      }
-
-      .cards1{
-        display: block;
-        padding-right: 8px;
-        width: 200px;
-        margin-left: 80px;
-      }
-
-      .paragrof2{
-        display: inline;
-        margin-top: 20px;
-      }
-
-      .cards{
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 50px;
-      }
-
-      .img4{
-        width: 200px;
-      }
-
-      .h2-tag{
-        text-align: center;
-        margin-top: 40px;
-      }
-
-      .paragrofs{
-        margin-left: 120px;
-        margin-top: 70px;
-      }
-  
-      .father{
-        display: block;
-        margin-left: 20px;
-        margin-right: 20px;
-      }
-      
-      .mening{
-        display: none;
-      }
+  .navigation {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    justify-content: space-between;
   }
+
+  .hrefting {
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+
+  .header {
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .btn-head {
+    margin-bottom: 60px;
+  }
+
+  .tegs {
+    padding-right: 20px;
+  }
+
+  .logotip {
+    margin-bottom: 20px;
+  }
+
+  .img1 {
+    margin-left: 20px;
+  }
+
+  .img2 {
+    margin-left: 80px;
+  }
+
+  .cards1 {
+    padding-right: 80px;
+    width: 200px;
+
+  }
+
+  .paragrof2 {
+    display: inline;
+    margin-top: 20px;
+  }
+
+  .cards {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .paragrof {
+    margin-left: 10px;
+  }
+
+  .img4 {
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+
+  .h2-tag {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: px;
+  }
+
+  .paragrofs {
+    text-align: center;
+  }
+
+  .father {
+    display: block;
+  }
+
+  .mening {
+    display: none;
+  }
+
+  .paragrof3{
+    margin-top: 20px;
+  }
+}
