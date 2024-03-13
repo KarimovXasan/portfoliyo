@@ -13,9 +13,8 @@
     margin: 0 auto;
 }
 
-body{
-    display: flex;
-    flex-wrap: wrap;
+.logotip{
+    background-color: none;
 }
 
 nav {
@@ -64,8 +63,8 @@ header {
 }
 
 .mening {
+    max-width: 800px;
     border-radius: 20px;
-    width: 550px;
     margin-left: 40px;
 }
 
@@ -85,14 +84,20 @@ header {
 
 /* main qismi */
 
+.cards1{
+    display: block;
+}
+
 .img1 {
     border-radius: 25px;
+    width: 300px;
 }
 
 .img2 {
     border-radius: 25px;
     margin-left: 30px;
     margin-top: 10px;
+    width: 300px;
 }
 
 .father {
@@ -121,6 +126,7 @@ header {
 
 .paragrofs {
     margin-left: 30px;
+    display: block;
 }
 
 .h2-tag {
@@ -152,7 +158,7 @@ header {
     letter-spacing: 0em;
 }
 
-.cards{
+.cards {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -160,11 +166,89 @@ header {
     background-color: rgba(181, 181, 181, 1);
 }
 
-.paragrofs2{
+.paragrofs2 {
     margin-left: 10px;
 }
 
-.img4{
+.img4 {
     padding: 20px;
     border-radius: 5%;
 }
+
+@media only screen and (max-width: 600px) {
+      .navigation{
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: space-between;         
+      }
+
+      .hrefting{
+        margin-left: 20px;
+        padding-left: 20px;
+        margin-right: 20px;
+        padding-right: 20px;
+      }
+      .header{
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+ 
+      .tegs{
+        padding-right: 20px;
+      }
+
+      .logotip{
+        margin-bottom: 20px;
+      }
+
+      .img1{
+        margin-left: 20px;
+      }
+
+      .img2{
+        margin-left: 80px;
+      }
+
+      .cards1{
+        display: block;
+        padding-right: 8px;
+        width: 200px;
+        margin-left: 80px;
+      }
+
+      .paragrof2{
+        display: inline;
+        margin-top: 20px;
+      }
+
+      .cards{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 50px;
+      }
+
+      .img4{
+        width: 200px;
+      }
+
+      .h2-tag{
+        text-align: center;
+        margin-top: 40px;
+      }
+
+      .paragrofs{
+        margin-left: 120px;
+        margin-top: 70px;
+      }
+  
+      .father{
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      
+      .mening{
+        display: none;
+      }
+  }
